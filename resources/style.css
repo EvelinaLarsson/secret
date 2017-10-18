@@ -79,6 +79,12 @@ nav ul li {
   padding: 0.75rem 0;
 }
 
+.mobile-nav {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 /*Product listing/Shop styling*/
 .shop {
   display: flex;
@@ -103,7 +109,7 @@ nav ul li {
   display: block;
   background-color: black;
   text-align: center;
-  padding: 1rem;
+  padding: 1.1rem;
   min-width: 30%;
 }
 
@@ -136,4 +142,28 @@ footer {
   height: 10rem;
   display: flex;
   align-items: center;
+}
+
+@media only screen and (min-width: 1024px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .product {
+    min-width: 47%;
+  }
+
+  .product.glasses {
+    display: none;
+  }
+
+  .product-image img {
+    padding: 3rem 8rem;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
 }
