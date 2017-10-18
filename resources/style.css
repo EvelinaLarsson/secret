@@ -129,3 +129,11 @@ nav ul li {
 .info .details {
   color: black;
 }
+
+footer {
+  margin-top: 4rem;
+  background-color: black;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+}
