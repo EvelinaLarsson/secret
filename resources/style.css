@@ -106,3 +106,26 @@ nav ul li {
   padding: 1rem;
   min-width: 30%;
 }
+
+/*Contact us section*/
+.contact-us {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  min-width: 35%;
+}
+
+.title {
+  display: block;
+  background-color: black;
+  padding: 1rem 0 1rem 2rem;
+}
+
+.info .details {
+  color: black;
+}
