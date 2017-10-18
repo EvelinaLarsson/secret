@@ -79,10 +79,8 @@ nav ul li {
   padding: 0.75rem 0;
 }
 
-.mobile-nav {
-  align-items: center;
+.tablet-nav {
   justify-content: center;
-  text-align: center;
 }
 
 /*Product listing/Shop styling*/
@@ -151,6 +149,39 @@ footer {
 }
 
 @media only screen and (max-width: 1024px) {
+  .branding {
+    height: 2.5rem;
+  }
+
+  .branding img {
+    height: 1.25rem;
+  }
+
+  .branding span {
+    font-size: 16px;
+  }
+
+  .banner {
+    height: 23rem;
+  }
+
+  .square {
+    background-color: black;
+    width: 23rem;
+  }
+
+  .square h4 {
+    font-weight: bold;
+    padding: 2rem 0 0.5rem 3rem;
+  }
+
+  .square h1 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 0 3.5rem 2rem 3rem;
+    line-height: 1.2em;
+  }
+
   .product {
     min-width: 47%;
   }
